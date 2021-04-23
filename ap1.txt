@@ -1,0 +1,13 @@
+git init  // inicializa o repositório local
+
+git pull https://github.com/RafaelC4rdoso/AvaliacaoAp1  // sincroniza o rep. local com o remoto
+
+git remote add origin https://github.com/RafaelC4rdoso/AvaliacaoAp1 // especifica o link do rep. remoto
+
+git status // mostra o status de modificações feitas até o momento
+
+git add . // adiciona os arquivos a serem enviados ao rep. remoto
+
+git commit -m "AP1" // funciona como um pacote de alterações feitas num repositório
+
+git push -u origin master // envia o commit para o repositório remoto

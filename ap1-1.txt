@@ -1,0 +1,7 @@
+git status // mostra o status de modificações feitas até o momento
+
+git add . // adiciona os arquivos a serem enviados ao rep. remoto
+
+git commit -m "AP1-1" // cria um pacote de alterações feitas num repositório
+
+git push -u origin master // envia o commit para o repositório remoto
